@@ -30,6 +30,10 @@ class Brand extends Common{
             //var_dump($data);exit;
             var_dump($logo);
         }
+
+    }
+    public function delete(){
+        echo "我是品牌删除";
     }
 
 }
