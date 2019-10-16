@@ -35,5 +35,8 @@ class Brand extends Common{
     public function delete(){
         echo "我是品牌删除";
     }
+    public function update(){
+        echo "我是品牌修改";
+    }
 
 }
